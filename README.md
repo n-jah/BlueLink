@@ -1,14 +1,16 @@
-# IoT Bluetooth Mobile App with Kotlin
+# BlueLink – IoT Bluetooth Mobile App with Kotlin
 
-A cross-disciplinary **IoT** project that combines **Android development**, **Bluetooth Low Energy (BLE)** communication, and **embedded firmware** to create a complete end-to-end system.  
-The project demonstrates how a **Kotlin-based Android app** can seamlessly control and monitor multiple custom hardware devices in real time.
+**BlueLink** is a cross-disciplinary **IoT** project that combines  
+📱 **Android development**, 📡 **Bluetooth Low Energy (BLE)** communication, and ⚡ **embedded firmware** to create a complete **end-to-end system**.  
+
+The project demonstrates how a **Kotlin-based Android app** can seamlessly control and monitor multiple custom hardware devices (e.g., a **Photo Gate** physics experiment device) in real time.
 
 ---
 
 ## 🔹 Overview
 This project showcases the integration of:
 - **Android Mobile Application (Kotlin)** – Built with **MVVM architecture**, Jetpack libraries, and BLE APIs to discover, connect, and communicate with IoT devices.
-- **Embedded Device Firmware** – Developed for custom hardware (e.g., **Photo Gate** physics experiment device) to handle BLE commands, data acquisition, and event notifications.
+- **Embedded Device Firmware** – Developed for custom hardware to handle BLE commands, data acquisition, and event notifications.
 - **IoT System Design** – A modular setup that supports adding different devices, running physics experiments, and logging test results.
 
 ---
@@ -16,19 +18,9 @@ This project showcases the integration of:
 ## 🚀 Features
 - 📡 **BLE Scanning & Connection** – Discover and connect to nearby Bluetooth Low Energy devices.
 - 🔄 **Real-Time Communication** – Send commands, receive data, and control devices instantly.
-- ⚡ **Device Management** – Connect to multiple experimental devices (e.g., Photo Gate) and handle dynamic device states.
+- ⚡ **Device Management** – Connect to multiple experimental devices and handle dynamic device states.
 - 📊 **Data Logging & Monitoring** – Collect and display experimental results for analysis.
 - 🧩 **Scalable Architecture** – Designed to support additional IoT devices and experiment types.
-
----
-
-## 🛠️ Tech Stack
-| Layer               | Technology/Tools                          |
-|----------------------|--------------------------------------------|
-| **Mobile App**      | Kotlin, Jetpack Compose (UI), MVVM, LiveData, Coroutines, BLE APIs |
-| **Embedded Firmware**| ESP32 / custom microcontrollers, C/C++ (Arduino framework) |
-| **Communication**   | Bluetooth Low Energy (GATT) |
-| **Hardware Example** | Photo Gate sensor for physics experiments |
 
 ---
 
@@ -54,8 +46,23 @@ This project showcases the integration of:
 
 ---
 
-## 📸 Screenshots
-*(Add photos of the app UI, device setup, or experiments here)*
+## 🎥 Demo
+
+Check out the app in action:
+- ▶️ [Demo 1 – Device Scanning & Connection](https://github.com/n-jah/BlueLink/raw/main/2025-08-21%2015-53-54.mp4)
+- ▶️ [Demo 2 – Experiment Control & Data](https://github.com/n-jah/BlueLink/raw/main/Screenrecorder-2025-09-06-15-07-37-807.mp4)
+
+*(Click to play directly on GitHub)*
+
+---
+
+## 🛠️ Tech Stack
+| Layer               | Technology/Tools                          |
+|----------------------|--------------------------------------------|
+| **Mobile App**      | Kotlin, Jetpack Compose (UI), MVVM, LiveData, Coroutines, BLE APIs |
+| **Embedded Firmware**| ESP32 / custom microcontrollers, C/C++ (Arduino framework) |
+| **Communication**   | Bluetooth Low Energy (GATT) |
+| **Hardware Example** | Photo Gate sensor for physics experiments |
 
 ---
 
